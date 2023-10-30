@@ -1,0 +1,52 @@
+.home {
+  display: flex;
+  overflow-y: hidden;
+}
+.leftContainer {
+  flex: 4;
+  border-right: 1px solid black;
+}
+
+/* right */
+.rightContainer {
+  flex: 96;
+  display: flex;
+  margin-left: 20px;
+}
+
+.c-left {
+  margin: 30px 20px 0 0;
+  flex: 1;
+}
+.c-left .l-card {
+  margin-bottom: 20px;
+  height: 30vw;
+}
+.c-center {
+  flex: 1;
+  margin: 8px 20px 0 0;
+  height: 400px;
+}
+.c-center .c-card {
+  margin-bottom: 20px;
+  height: 40vw;
+}
+.c-right {
+  flex: 1;
+  margin-top: 30px;
+}
+.c-right .r-card {
+  height: 30vw;
+  margin-bottom: 20px;
+}
+
+.c-card img {
+  width: 100%;
+  height: inherit;
+  object-fit: fill;
+}
+.c-left img,
+.c-right img {
+  width: 100%;
+  height: inherit;
+}

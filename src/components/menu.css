@@ -1,0 +1,18 @@
+.m-items {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.m-item {
+  transform: rotate(270deg);
+  color: rgb(66, 65, 65);
+  font-weight: bolder;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+}
